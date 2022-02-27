@@ -101,7 +101,7 @@ todos os elementos html da página
   z-index: -1;
   filter: brightness(70%);
   opacity: 0;
-  transition: 0.3s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 .conteudo-principal .paineis .projeto1 {
