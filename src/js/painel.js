@@ -55,4 +55,8 @@ setaVoltar.addEventListener("click", function () {
 
     imagens[imagemAtual].classList.add("mostrar");
   });
-});
+})
+
+
+
+

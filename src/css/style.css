@@ -101,7 +101,7 @@ todos os elementos html da página
   z-index: -1;
   filter: brightness(70%);
   opacity: 0;
-  transition: 1s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .conteudo-principal .paineis .projeto1 {
@@ -139,16 +139,6 @@ todos os elementos html da página
 }
 
 .conteudo-principal .paineis .seta.btn-voltar {
-  width: 50px;
-  height: 50px;
-  left: 20px;
-  transform: rotateY(180deg);
-}
-
-.conteudo-principal .paineis .seta.btn-voltar:hover {
-  transition: 0.1s ease-in-out;
-  width: 60px;
-  height: 60px;
   left: 20px;
   transform: rotateY(180deg);
 }
@@ -156,12 +146,27 @@ todos os elementos html da página
 .conteudo-principal .paineis .seta.btn-avancar {
   right: 20px;
 }
+.conteudo-principal .paineis .seta.btn-voltar:hover {
+  transition: 0.1s ease-in-out;
+  width: 60px;
+  height: 60px;
+  transform: rotateY(180deg);
+}
 
 .conteudo-principal .paineis .seta.btn-avancar:hover {
   transition: 0.1s ease-in-out;
   width: 60px;
   height: 60px;
-  right: 20px;
+}
+
+.conteudo-principal .paineis .seta.btn-voltar:active {
+  width: 55px;
+  height: 55px;
+}
+
+.conteudo-principal .paineis .seta.btn-avancar:active {
+  width: 55px;
+  height: 55px;
 }
 
 .quem-somos {
